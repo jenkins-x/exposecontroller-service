@@ -1,7 +1,7 @@
 CHART_REPO := https://chartmuseum.build.cd.jenkins-x.io
 NAME := exposecontroller-service
 OS := $(shell uname)
-VERSION := $(shell cat ../../version/VERSION)
+RELEASE_VERSION := $(shell jx-release-version)
 
 setup:
 	minikube addons enable ingress

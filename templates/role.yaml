@@ -28,6 +28,7 @@ rules:
   - update
 - apiGroups:
   - apps
+  - extensions
   resources:
   - deployments
   verbs:

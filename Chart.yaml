@@ -1,6 +1,6 @@
 name: exposecontroller-service
 home: https://jenkins-x.github.io/jenkins-x-website/
-version: 1.0.1
+version: 1.0.2
 icon: https://raw.githubusercontent.com/fabric8-apps/exposecontroller-app/master/src/main/fabric8/icon.png
 maintainers:
 - name: Jenkins X Team

@@ -1,5 +1,5 @@
 Image: "jenkinsxio/exposecontroller"
-ImageTag: "2.3.58"
+ImageTag: "2.3.70"
 BackoffLimit: 5
 Annotations: {}
 #Args:

@@ -4,8 +4,10 @@ pipeline {
    }
    stages {
       stage('Release') {
-         container('go') {
-            sh "make release"
+         steps {
+            container('go') {
+               sh "make release"
+            }
          }
       }
    }

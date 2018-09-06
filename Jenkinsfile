@@ -9,7 +9,7 @@ pipeline {
       stage('Release') {
          steps {
             container('go') {
-               sh "using jenkins-x-chartmuseum credentials!"
+               sh "echo using jenkins-x-chartmuseum credentials"
                sh "helm init --client-only"
                sh "make release"
             }

@@ -6,6 +6,7 @@ pipeline {
       stage('Release') {
          steps {
             container('go') {
+               sh "helm init --client-only"
                sh "make release"
             }
          }

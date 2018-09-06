@@ -1,4 +1,4 @@
-CHART_REPO := https://chartmuseum.build.cd.jenkins-x.io
+CHART_REPO := http://jenkins-x-chartmuseum:8080
 NAME := exposecontroller-service
 OS := $(shell uname)
 RELEASE_VERSION := 1.0.5
